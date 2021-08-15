@@ -1,3 +1,13 @@
+
+:root{
+    --pnav:#212429;
+    --pnavlight:#2a2e35be;
+    --pwhite:#e8e8e8;
+    --porange:#D54C4C;
+    --pfont:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -1,0 +1,31 @@
+.nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  background: var(--pnav);
+  align-items: center;
+  color: var(--pwhite);
+  text-transform: capitalize;
+}
+.title {
+  font-size: 3em;
+  font-weight: bolder;
+}
+.title span {
+  color: var(--porange);
+}
+.links {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0px 20px;
+  cursor: pointer;
+  justify-content: space-evenly; 
+}
+.links li{
+    margin:0px 20px;
+    font-weight: 2em; 
+}
+li:hover{
+    background-color: #fff;
+}
