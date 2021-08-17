@@ -1,0 +1,9 @@
+.footer{
+ height: 200px;
+ width: 100%;
+ display: grid;
+ place-items: center;
+ color: var(--pwhite);
+ background: var(--pnav);
+ 
+}

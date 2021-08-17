@@ -1,7 +1,65 @@
 {
-  "nav" :[
-    "computer engineering ",
+  "nav": [
+    "computer engineering",
     "civl engineering ",
     "electrical engineering "
-  ]
+  ],
+  "subjects": {
+    "computer engineering": {
+      "semester 1": [
+        "Engineering physics-I",
+        "Engineering Chemistry-I",
+        "Engineering Mathematics-I",
+        "Computer Fundamental",
+        "Communication Nepali",
+        "Communication English",
+        "Computer programming in c",
+        "Engineering drawing "
+      ],
+      "semester 2": [
+        "Engineering physics-II",
+        "Engineering Chemistry-II",
+        "Engineering Mathematics-II",
+        "Digital logic",
+        "Object oriented programming with c++",
+        "Electrical engineering",
+        "Web technology & programming-I"
+      ],
+      "semester 3": [
+        "Engineering Mathematics-III",
+        "Web technology & programming-II",
+        "data structure & algorithm",
+        "database management system ",
+        "microprocessors",
+        "electrical devices & circuits"
+      ],
+      "semester 4": [
+        "data communications",
+        "system analysis & design ",
+        "visual programming ",
+        "computer architecture",
+        "computer repair & mentainance ",
+        "computer graphics",
+        "stastics & probablity "
+      ],
+      "semester 5": [
+        "computer networks ",
+        "management information system ",
+        "applied telecommunication ",
+        "distributed computing",
+        "operating system ",
+        "cyber secutrty and social ethics",
+        "geographical information system ",
+        "minor project"
+      ],
+      "semester 6": [
+        "multimedia technology ",
+        "internet technology",
+        "data mining ",
+        "software engineering",
+        "embedded system ",
+        "major project"
+      ]
+    }
+  }
 }

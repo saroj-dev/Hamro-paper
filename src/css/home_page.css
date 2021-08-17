@@ -1,0 +1,52 @@
+.main_container {
+  display: flex;
+  max-width: 1000px;
+  width: 90%;
+  justify-content: space-between;
+  /* background-color: black; */
+  margin: 100px auto;
+}
+.left_container {
+  min-width: 300px;
+  color: var(--pnav);
+}
+
+.right_container {
+  max-width: 700px;
+}
+.right_container img {
+  width: 100%;
+}
+.heading {
+  margin-bottom: 20px;
+  font-size: 3em;
+  font-weight: bolder;
+}
+.para {
+  min-width: 500px;
+  width: 80%;
+  line-height: 22px;
+  font: 1.7em;
+}
+.btn_container {
+  display: flex;
+  width: 80%;
+  margin-top: 50px;
+}
+
+.btn {
+  width: 100px;
+  padding: 15px 40px;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.sign_in{
+    background:var(--pwhite) ;
+}
+.sign_up {
+  margin-left: 20px;
+  background:var(--porange) ;
+  color: var(--pwhite);
+}

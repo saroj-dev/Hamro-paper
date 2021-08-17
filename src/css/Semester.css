@@ -1,0 +1,39 @@
+.sem_container {
+  transform: translate(0%, 35%);
+  transition: 0.5 all;
+  background: var(--pwhite);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px 5px rgba(51, 51, 51, 0.253);
+  z-index: 10;
+}
+.sem {
+  display: grid;
+  place-items: center;
+  height: 40px;
+  width: 200px;
+  padding: 5px 10px;
+  transition: 0.5 all;
+}
+.sem + .sem {
+  border-top: 1px solid var(--pnavlight);
+}
+
+.out_click {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+.sem:hover{
+    background-color: var(--porange);
+    color: var(--pwhite);
+    cursor: pointer;
+
+}
+.active , .active:hover{
+  background:var(--pnav);
+  color: var(--pwhite);
+}
